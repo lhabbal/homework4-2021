@@ -78,7 +78,7 @@ td{
 
 /*Req 6b*/
 .colhead{
-  column-width: 125px;
+  min-width: 125px;
   color: #FFFFFF;
   padding: 10px;
   text-transform: uppercase;
@@ -141,6 +141,11 @@ footer{
   position: fixed;
   left: 0;
   bottom: 0;
+  padding: 15px;
 
 }
 
+footer p{
+
+  padding-bottom: 15px;
+}
