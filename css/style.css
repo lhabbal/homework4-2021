@@ -84,6 +84,7 @@ td{
   text-transform: uppercase;
   vertical-align: middle;
   background-color: #7e0820;
+  text-align: center
 
 }
 /*Req 6c*/
@@ -95,7 +96,9 @@ padding: 10px;
 }
 
 /*Req 6d*/
-
+tr:nth-child(odd) {
+  background-color: transparent;
+}
 /*Req 6e*/
 tr:nth-child(even) {
   background: #D1D1D1;
